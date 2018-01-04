@@ -1,0 +1,19 @@
+{
+  "name": "bayernfahrplan",
+  "version": "1.0.0",
+  "description": "api to fetch data from bayernfahrplan",
+  "main": "grabBF.js",
+  "dependencies": {
+    "concat": "^1.0.3",
+    "date-and-time": "^0.6.1",
+    "cheerio": "^1.0.0-rc.2",
+    "fs": "^0.0.1-security",
+    "request": "^2.83.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "node grabBF.js"
+  },
+  "author": "blitze299",
+  "license": "MIT"
+}
